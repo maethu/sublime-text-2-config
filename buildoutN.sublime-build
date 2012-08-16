@@ -1,0 +1,5 @@
+{
+    "cmd": ["bin/buildout", "-N"],
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.python"
+}

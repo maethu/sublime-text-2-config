@@ -1,0 +1,18 @@
+{
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.python",
+    "variants": [
+        {
+            "cmd": ["bin/test", "-t", "$file_base_name"],
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "Run current test"
+        },
+    	{
+    		"cmd": ["bin/test"],
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    		"name": "Run all tests"
+    	}
+    ]
+
+}
+    
