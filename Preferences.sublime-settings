@@ -1,7 +1,26 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
+	"detect_slow_plugins": false,
+	"file_exclude_patterns":
+	[
+		".gitignore",
+		".DS_Store",
+		".*.cfg",
+		"*.pyc"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".*",
+		"parts",
+		"bin",
+		"*egg-info",
+		"develop-eggs"
+	],
 	"font_size": 11.0,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", ".*", "parts", "bin", "*egg-info"],
-	"file_exclude_patterns": [".gitignore", ".DS_Store", ".*.cfg"],
-	"detect_slow_plugins": false
+	"remember_open_files": false,
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true	
 }
