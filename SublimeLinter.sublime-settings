@@ -1,0 +1,8 @@
+{
+
+    "sublimelinter": true,
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_mark_style": "none",
+    "pep8": false,
+    "pyflakes_ignore_import_*": false
+}
