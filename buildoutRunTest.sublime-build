@@ -7,10 +7,15 @@
             "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
             "name": "Run current test"
         },
-    	{
-    		"cmd": ["bin/test"],
+        {
+            "cmd": ["bin/test"],
             "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-    		"name": "Run all tests"
+            "name": "Run all tests"
+        },
+    	{
+    		"cmd": ["bin/test-coverage"],
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    		"name": "Run all tests incl. coverage report"
     	}
     ]
 
