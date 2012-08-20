@@ -16,7 +16,16 @@
     		"cmd": ["bin/test-coverage"],
             "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
     		"name": "Run all tests incl. coverage report"
-    	}
+    	},
+        {
+            "cmd": ["bin/buildout", "-N"],
+            "name": "Run buildout"
+        },
+        {
+            "cmd": ["bin/buildout"],
+            "name": "buildout init"
+        }
+
     ]
 
 }
