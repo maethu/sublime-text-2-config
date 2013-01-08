@@ -1,4 +1,8 @@
 [
     { "keys": ["ctrl+alt+super+c"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
-	{ "keys": ["ctrl+shift+d"], "command": "duplicate_line" }
+	{ "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
+    { "keys": ["ctrl+alt+super+i"], "command": "indent" },
+    { "keys": ["ctrl+alt+super+u"], "command": "unindent" },
+    { "keys": ["super+alt+f"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace"} }
 ]
