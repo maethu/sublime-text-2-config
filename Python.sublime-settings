@@ -1,0 +1,6 @@
+{
+     "ensure_newline_at_eof_on_save": true,
+    // Columns in which to display vertical rulers
+    "rulers": [79]
+
+}
