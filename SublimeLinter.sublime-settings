@@ -1,6 +1,6 @@
 {
 
-    "sublimelinter": true,
+    "sublimelinter": "load-save",
     "sublimelinter_gutter_marks": true,
     "sublimelinter_mark_style": "none",
     "pep8": false,
