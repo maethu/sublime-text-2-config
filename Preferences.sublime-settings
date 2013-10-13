@@ -16,6 +16,8 @@
 		".*",
 		"parts",
 		"bin",
+		"eggs",
+		"var",
 		"*egg-info",
 		"develop-eggs"
 	],
