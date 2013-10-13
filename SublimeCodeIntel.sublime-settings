@@ -1,0 +1,25 @@
+{
+    "codeintel_tooltips": "status",
+
+    "codeintel_config": {
+        "Python": {
+            "env": {
+
+                "PATH": "/Users/maethu/python/python-2.7/bin:$PATH",
+
+                "PYTHONPATH": "/Users/maethu/python/python-2.7/lib/python2.7/site-packages:$PYTHONPATH"
+            }
+        },
+        "JavaScript": {
+            "javascriptExtraPaths": [],
+            "codeintel_scan_files_in_project": false,
+            "codeintel_max_recursive_dir_depth": 2
+        },
+        "PHP": {
+            "phpExtraPaths": [],
+            "codeintel_scan_files_in_project": false,
+            "codeintel_max_recursive_dir_depth": 5
+        }
+    }
+
+}
