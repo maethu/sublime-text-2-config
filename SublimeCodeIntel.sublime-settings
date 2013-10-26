@@ -1,5 +1,6 @@
 {
     "codeintel_tooltips": "status",
+    "codeintel_snippets": false,
 
     "codeintel_config": {
         "Python": {

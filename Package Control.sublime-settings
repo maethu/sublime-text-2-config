@@ -7,13 +7,14 @@
 		"Indent XML",
 		"INI",
 		"jQuery",
+		"Keymaps",
 		"LoremIpsum",
 		"Markdown Preview",
 		"Package Control",
 		"Python Flake8 Lint",
 		"Python PEP8 Autoformat",
 		"SublimeCodeIntel",
-		"SublimeREPL",
+		"SublimeGit",
 		"TrailingSpaces"
 	]
 }
